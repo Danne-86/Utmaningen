@@ -3,84 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css">
-    <title>'Best shoes on the market!'</title>
+    <link rel="stylesheet" href="main.css" />
+    <title>Best shoes on the market!</title>
   </head>
   <body>
-    <h1>Best of Brands</h1>
-    
-    
+    <!-- Header Section -->
     <header>
-      
-      <img src="Images/Shoe.png" style="width: 5%;" alt="" class="top-right-image">
-
-      <a href="index.html">Home</a>
-      <a href="collection.html">Collection</a>
-
-
-      <!--
-            Här lägger vi sådant som ska visas på samtliga sidor, såsom
-            logotyp, meny, sökfält, etc.
-        -->
-        
-        
-      
+      <div class="header-content">
+        <img
+          src="Images/Shoe.png"
+          style="width: 5%"
+          alt="Shoe logo"
+          class="top-right-image"
+        />
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="collection.html">Collection</a>
+        </nav>
+      </div>
     </header>
+
+    <!-- Main Content Section -->
     <main>
- 
-      <h2>Why our shoes are the best</h2>
+      <div class="intro-section">
+        <h1>Best of Brands</h1>
+        <h2>Why our shoes are the best</h2>
+        <p>
+          Step into comfort and care with the perfect pair of shoes! Your feet
+          deserve the best, and our footwear delivers just that. Designed with
+          superior support, cushioning, and style, our shoes keep you moving
+          effortlessly while protecting against aches, blisters, and long-term
+          foot problems. Whether you're walking, working, or working out, the
+          right shoes mean better posture, happier joints, and all-day
+          confidence. Don't settle for less - treat your feet to the comfort they
+          deserve and step into a healthier, more active life today! Your journey
+          starts from the ground up - make every step count!
+        </p>
+      </div>
 
-      <h3>Step into comfort and care with the perfect pair of shoes! Your feet deserve the best, and our footwear delivers just that. 
-        Designed with superior support, cushioning, and style, our shoes keep you moving effortlessly while protecting against aches, 
-        blisters, and long-term foot problems. Whether you're walking, working, or working out, the right shoes mean better posture, 
-        happier joints, and all-day confidence. Don't settle for less treat your feet to the comfort, they deserve and step into a 
-        healthier, more active life today! Your journey starts from the ground up, make every step count!</h3>
+      <div class="video-section">
+        <video autoplay class="skoVideo" src="Videos/shoesVid.mp4" muted controls>
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
-        <video autoplay class="skoVideo" src="Videos/shoesVid.mp4" muted controls></video>
-        
-
+      <div class="reasons-section">
         <h2>Top 3 reasons to buy our shoes</h2>
-        <h3>
-          <ul>
-            <li><strong>Unmatched Comfort</strong>: Experience all-day support and cushioning that keeps your feet pain-free and energized.</li>
-            <li><strong>Durable Quality</strong>: Built to last with premium materials, ensuring long-term value and performance.</li>
-            <li><strong>Stylish Versatility</strong>: Sleek designs that seamlessly transition from work to workouts to weekend adventures.</li>
-          </ul>
-        </h3>
+        <ul>
+          <li>
+            <strong>Unmatched Comfort</strong>: Experience all-day support and
+            cushioning that keeps your feet pain-free and energized.
+          </li>
+          <li>
+            <strong>Durable Quality</strong>: Built to last with premium
+            materials, ensuring long-term value and performance.
+          </li>
+          <li>
+            <strong>Stylish Versatility</strong>: Sleek designs that seamlessly
+            transition from work to workouts to weekend adventures.
+          </li>
+        </ul>
+      </div>
     </main>
 
-    <h1>Rating on our shoes</h1>
-    <table>
+    <!-- Rating Table Section -->
+    <div class="rating-section">
+      <h1>Rating on our shoes</h1>
+      <table>
         <tr>
-            <th>Customers </th>
-            <th>Rating</th>
+          <th>Customers</th>
+          <th>Rating</th>
         </tr>
         <tr>
-            <td>Comfort</td>
-            <td>9.4 / 10</td>
+          <td>Comfort</td>
+          <td>9.4 / 10</td>
         </tr>
         <tr>
-            <td>Appearence</td>
-            <td>9.6 / 10</td>
+          <td>Appearance</td>
+          <td>9.6 / 10</td>
         </tr>
         <tr>
-            <td>Price</td>
-            <td>7.1 / 10</td>
+          <td>Price</td>
+          <td>7.1 / 10</td>
         </tr>
         <tr>
-            <td>Lifespan</td>
-            <td>8.5 / 10</td>
+          <td>Lifespan</td>
+          <td>8.5 / 10</td>
         </tr>
-    </table>
+      </table>
+    </div>
 
+    <!-- Footer Section -->
     <footer>
-      <hr>
-      &copy; Daniel Nyberg <a href="#">Back to Top</a>
-      <!--
-            Här lägger vi sådant som ska visas på samtliga sidor, såsom
-            kontaktuppgifter, länkar till sociala medier, copyright, etc.
-        -->
+      <hr />
+      <div class="footer-content">
+        &copy; Daniel Nyberg <a href="#">Back to Top</a>
+      </div>
     </footer>
   </body>
 </html>
-
