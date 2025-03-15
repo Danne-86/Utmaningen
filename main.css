@@ -1,0 +1,65 @@
+html {
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    font-size: 74px; 
+    text-align: center;
+}
+
+header {
+    font-size: 46px;
+    color:blue
+
+}
+
+main {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a {
+    margin-right: 20px; /* Justera värdet för önskat avstånd */
+  }
+
+
+.photo-grid img {
+    width: 450px; /* Set width */
+    height: 300px; /* Set height */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+}
+
+
+video {
+    display: block;
+    margin: 0 auto; /* Centers the video horizontally */
+  }
+
+table {
+    width: 100%; /* Gör tabellen bred */
+    border-collapse: collapse; /* Tar bort mellanrum mellan celler */
+}
+
+th, td {
+    padding: 10px; /* Mellanrum inuti cellerna */
+    text-align: left; /* Justera text till vänster */
+    border: 1px solid #ddd; /* Ramar kring cellerna */
+}
+
+th {
+    background-color: #333; /* Mörk bakgrundsfärg */
+    color: white; /* Vit text */
+    font-weight: bold; /* Fet text */
+}
+
+td {
+    background-color: #f9f9f9; /* Ljus bakgrundsfärg för dataceller */
+}
